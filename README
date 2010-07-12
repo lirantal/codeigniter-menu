@@ -1,0 +1,18 @@
+h1. CodeIgniter Menu
+
+Implementation of a menu navigation tree using database storage.
+Provides the necessary library code for CodeIgniter PHP framework.
+
+h2. INSTALLATION
+
+- import the database schema to your own database
+- by default the library is structured in a way that assumes you're using the HMVC approach,
+specifically, the modular separation plugin so all the directories should go into a module
+called 'menu'. If you'd like to simply throw it into the application/ folder then just copy
+the files to their respective directories: application/libraries and application/models and
+take care to change the model filename from the library constructor.
+
+
+h2. CONTACT
+
+* "Liran Tal":liran[dot]tal[at]gmail[dot]com
