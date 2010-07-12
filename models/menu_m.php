@@ -142,7 +142,7 @@ class Menu_m extends Model {
 		if (is_int($parent_id))
 			$query = $this->db->get_where('menu', array('parent_id' => $parent_id));
 		else if (is_string($parent_id)) {
-			$query = $this->db->get_where('menu', array('commonname' => $parent_id));
+			$query = $this->db->join('menu t2', 't1.id = t2.parent_id')->where('t1.commonname', $parent_id)->get('menu t1');
 		}
 		
 		if ($query->num_rows() == 0)
