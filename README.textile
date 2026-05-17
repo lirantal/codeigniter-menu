@@ -16,3 +16,7 @@ take care to change the model filename from the library constructor.
 h2. CONTACT
 
 * "Liran Tal":liran[dot]tal[at]gmail[dot]com
+
+## Contributing
+
+Please consult [CONTRIBUTING](./CONTRIBUTING.md) for guidelines on contributing to this project.
